@@ -1,0 +1,41 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDEs
+.vscode/
+.idea/
+
+# Operating systems
+.DS_Store
+Thumbs.db
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Models and large artifacts
+models/
+checkpoints/
+*.safetensors
+*.gguf
+*.bin
+
+# Benchmark and profiler outputs
+benchmark_results/
+profiler_traces/
+*.nsys-rep
+*.ncu-rep
